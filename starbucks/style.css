@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #f4e8dc;
+}
+
+.nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav .logo {
+    border-radius: 40px;
+    margin-right: 200px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.nav a:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.nav .sign-in{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    font-weight: 800;
+} 
+
+.nav .sign-in:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 255, 13, 0.29); 
+    box-shadow: 5px 5px 15px 5px rgba(0, 124, 31, 0.29);
+}
+
+.nav .join-now{
+        height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    font-weight: 800;
+}
+
+.nav .join-now:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 255, 13, 0.29); 
+    box-shadow: 5px 5px 15px 5px rgba(0, 124, 31, 0.29);
+}
+.text {
+    height: 400px;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+.text p{
+    margin-top: 10px;
+    width: 550px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.text .order-now{
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    background-color: green;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    transition: 0.5s;
+
+}
+
+.text .order-now:hover{
+    transform: scale(1.1);
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    color: green;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 255, 13, 0.29); 
+    box-shadow: 5px 5px 15px 5px rgba(0, 124, 31, 0.29);
+}
+.icons .instragram{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.main {
+    display: flex;
+    
+}
+
+.drinks{
+    height: 450px;
+    margin-left: 290px;
+    margin-top: 60px;
+    transition: 0.5s;
+}
+
+.drinks:hover{
+    transform: scale(1.1);
+}
